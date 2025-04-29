@@ -4,7 +4,7 @@ let pontucao = 0;
 let modoAtual = 'basico';
 
 // Função que inicia o jogo com o modo escolhido
-function iniciarJogo(modo); {
+function iniciarJogo(modo) {
     modoAtual = modo;
     document.getElementById("area-jogo").style.display = "block";
 }
